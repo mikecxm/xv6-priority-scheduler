@@ -3,9 +3,6 @@
 #include "user.h"
 
 int main() {
-  int i = 0;
-  while(1) {
-    i++;
-  }
+  while(1);
   exit();
 }
