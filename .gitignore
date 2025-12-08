@@ -1,0 +1,19 @@
+*.o
+*.d
+.asm
+cat > .gitignore << 'EOF'
+*.o
+*.d
+*.asm
+
+*.sym
+*.img
+.gdbinit
+_*
+kernel
+fs.img
+bootblock
+entryother
+initcode
+mkfs
+.vscode
